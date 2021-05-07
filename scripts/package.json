@@ -16,6 +16,8 @@
     "eslint": "^7.23.0",
     "@typescript-eslint/parser": "^4.21.0",
     "@typescript-eslint/eslint-plugin": "4.7.0",
+    "@graphql-codegen/cli": "^1.21.4",
+    "@graphql-codegen/typescript": "^1.22.0",
     "fast-glob": "^3.2.5"
   }
 }

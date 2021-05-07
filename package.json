@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "gql-start-kit",
   "private": true,
   "workspaces": {
     "packages": [
@@ -16,6 +16,7 @@
     "lage": "lage"
   },
   "devDependencies": {
+    "prettier": "^2.2.1",
     "lage": "0.29.3",
     "beachball": "^2.1.0"
   }
