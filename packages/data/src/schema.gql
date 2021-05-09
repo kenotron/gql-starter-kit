@@ -1,0 +1,9 @@
+type Task {
+  id: ID!
+  title: String!
+  done: Boolean!
+}
+
+type Query {
+  findTask(id: ID!): Task!
+}

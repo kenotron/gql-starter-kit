@@ -4,18 +4,26 @@
   "main": "./src/index.ts",
   "scripts": {
     "build": "monorepo-scripts build",
+    "dev": "monorepo-scripts dev",
     "lint": "monorepo-scripts lint",
     "test": "monorepo-scripts test",
+    "generate": "monorepo-scripts generate",
     "typecheck": "monorepo-scripts typecheck",
     "just": "monorepo-scripts"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-query": "^3.16.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
-    "monorepo-scripts": "*"
+    "monorepo-scripts": "*",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "esbuild-loader": "^2.13.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "publishConfig": {
     "main": "./lib/index.js",

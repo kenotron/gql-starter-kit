@@ -7,14 +7,21 @@
     "lint": "monorepo-scripts lint",
     "test": "monorepo-scripts test",
     "typecheck": "monorepo-scripts typecheck",
-    "just": "monorepo-scripts"
+    "generate": "monorepo-scripts generate",
+    "just": "monorepo-scripts",
+    "dev": "monorepo-scripts dev"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
-    "monorepo-scripts": "*"
+    "monorepo-scripts": "*",
+    "data": "*",
+    "nodemon": "^2.0.7"
   },
   "publishConfig": {
     "main": "./lib/index.js",

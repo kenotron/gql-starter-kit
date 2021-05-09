@@ -10,6 +10,7 @@
   "scripts": {
     "clean": "git clean -fdx -e node_modules",
     "build": "lage build",
+    "generate": "lage generate",
     "typecheck": "lage typecheck",
     "test": "lage test",
     "lint": "lage lint",

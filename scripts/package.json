@@ -1,7 +1,7 @@
 {
   "name": "monorepo-scripts",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "bin": {
     "monorepo-scripts": "bin/monorepo-scripts.js"
@@ -18,6 +18,9 @@
     "@typescript-eslint/eslint-plugin": "4.7.0",
     "@graphql-codegen/cli": "^1.21.4",
     "@graphql-codegen/typescript": "^1.22.0",
+    "@graphql-codegen/typescript-resolvers": "^1.19.1",
+    "@graphql-codegen/typescript-operations": "^1.17.16",
+    "@graphql-codegen/typescript-react-query":  "^1.3.0",
     "fast-glob": "^3.2.5"
   }
 }

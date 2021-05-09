@@ -1,9 +1,8 @@
 {
   "name": "data",
   "version": "0.1.0",
-  "main": "./src/index.ts",
+  "main": "./src/schema.gql",
   "scripts": {
-    "build": "monorepo-scripts build",
     "lint": "monorepo-scripts lint",
     "test": "monorepo-scripts test",
     "typecheck": "monorepo-scripts typecheck",
@@ -16,9 +15,5 @@
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "monorepo-scripts": "*"
-  },
-  "publishConfig": {
-    "main": "./lib/index.js",
-    "types": "./lib/index.d.ts"
   }
 }

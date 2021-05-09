@@ -4,6 +4,7 @@ module.exports = {
     build: [],
     test: ["build"],
     lint: [],
+    generate: []
   },
   npmClient: "yarn",
 };
