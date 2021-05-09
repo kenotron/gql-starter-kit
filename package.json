@@ -11,6 +11,7 @@
     "clean": "git clean -fdx -e node_modules",
     "build": "lage build",
     "generate": "lage generate",
+    "dev": "lage dev",
     "typecheck": "lage typecheck",
     "test": "lage test",
     "lint": "lage lint",

@@ -13,13 +13,9 @@ export const generate = graphqlCodeGenTask({
 
 export const build = transpileCjs;
 
-export const server = nodeExecTask({
-  args: ["lib"],
-});
-
 export const dev = () => {
-  watch("src/**/*", build);
-  return series(build, nodeExecTask({
+  watch(require.resolve("data"), series(generate, build));
+  return series(generate, build, nodeExecTask({
     args: [require.resolve('nodemon/bin/nodemon.js'), './lib']
   }));
 };

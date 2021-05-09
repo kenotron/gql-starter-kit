@@ -8,12 +8,7 @@
     "typecheck": "monorepo-scripts typecheck",
     "just": "monorepo-scripts"
   },
-  "dependencies": {
-    "graphql": "^15.5.0"
-
-  },
   "devDependencies": {
-    "@types/jest": "^26.0.22",
     "monorepo-scripts": "*"
   }
 }
