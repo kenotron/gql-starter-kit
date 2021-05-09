@@ -1,5 +1,6 @@
 query findTask($id: ID!)  {
 	findTask(id: $id) {
+    id
     title
     done
   }
